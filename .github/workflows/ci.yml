@@ -25,4 +25,4 @@ jobs:
       run: cd unit-integration-tests && npm install
 
     - name: Run tests
-      run: npm test
+      run: cd unit-integration-tests && npm test
