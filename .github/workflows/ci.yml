@@ -21,6 +21,9 @@ jobs:
       with:
         node-version: '20.x'
 
+    - name: Debug paths
+      run: ls -R
+
     - name: Install dependencies
       working-directory: ./unit-integration-tests
       run: npm install
